@@ -1,4 +1,4 @@
-.PHONY: install clean serve build test
+.PHONY: install serve clean build test-unit
 
 WEBPACK_BIN = ./node_modules/webpack/bin/webpack.js
 
