@@ -1,4 +1,4 @@
-# Skalbolaget
+# React Boilerplate
 
 ## Running
 
