@@ -1,9 +1,9 @@
 import React from 'react'
 import {shallow} from 'enzyme'
-import Header from '../app/components/header'
+import Header from '../../app/components/header'
 
 describe('<Header />', () => {
-  it('renders without props', () => {
+  it('renders the component', () => {
     const wrapper = shallow(
       <Header/>
     )
