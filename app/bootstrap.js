@@ -2,14 +2,17 @@ import './styles/main.scss'
 
 import React from 'react'
 import {render} from 'react-dom'
+import {Provider} from 'react-redux'
 import {Router, Route, browserHistory} from 'react-router'
-
-import App from './screens/root'
+import Main from './screens/Main'
+import store from './store'
 
 const router = (
-  <Router history={browserHistory}>
-    <Route path='/' component={App}/>
-  </Router>
+  <Provider store={store}>
+    <Router history={browserHistory}>
+      <Route path='/' component={Main}/>
+    </Router>
+  </Provider>
 )
 
 render(router, document.getElementById('root'))

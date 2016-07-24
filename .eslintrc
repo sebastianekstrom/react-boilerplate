@@ -87,7 +87,7 @@
     "mocha/no-exclusive-tests": 1,
     "mocha/no-skipped-tests": 1,
     "mocha/no-pending-tests": 1,
-    "react/display-name": 1,
+    "react/display-name": 0,
     "react/jsx-closing-bracket-location": 1,
     "react/jsx-indent-props": [1, 2],
     "react/jsx-no-duplicate-props": 1,
